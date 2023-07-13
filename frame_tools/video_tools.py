@@ -8,7 +8,7 @@ import cv2 as cv
 
 
 
-def create_video_png(subj_folder_input,subj_folder_out,name,frame_rate):
+def create_video_png_Opencv(subj_folder_input,subj_folder_out,name,frame_rate):
     print("start of  video creation ")
 
 
@@ -29,7 +29,7 @@ def create_video_png(subj_folder_input,subj_folder_out,name,frame_rate):
     print("end of video creation")
 
 
-def create_video_jpeg(subj_folder_input,subj_folder_out,name,frame_rate):
+def create_video_jpeg_Opencv(subj_folder_input,subj_folder_out,name,frame_rate):
     print("start of  video creation ")
 
 
